@@ -4,19 +4,8 @@ A state-aware RAG system built with LangGraph that analyzes Apple and Tesla fina
 
 ## Architecture
 
-```
-User Query
-    │
-    ▼
-[Task B] Intelligent Router ──► Apple DB / Tesla DB / Both / None
-    │
-    ▼
-[Task C] Relevance Grader
-    │
-    ├─ yes ──► [Task E] Final Generator ──► Answer
-    │
-    └─ no  ──► [Task D] Query Rewriter ──► Router (retry, max 2×)
-```
+![RAG Architecture Flow](./figure1.png)
+
 
 The Legacy ReAct agent (Task A / LangChain) provides a baseline single-chain comparison.
 
@@ -62,7 +51,7 @@ pip install -r requirements.txt
 ### 2. Configure environment
 
 ```bash
-cp .env_example .env
+cp .env.example .env
 ```
 
 ### 3. Add financial PDF documents
