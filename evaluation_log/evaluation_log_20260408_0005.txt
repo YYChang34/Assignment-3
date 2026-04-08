@@ -1,0 +1,84 @@
+ASSIGNMENT 3 EVALUATION REPORT
+Time: 2026-04-08 00:05:00
+Agent Mode: GRAPH
+Running: Test A: Apple Revenue...
+   Relevance Grade: yes
+A: Apple 2024 年的總營收 (Total net sales) 是 $391,035 million [Source: Apple 10-K].
+PASS (8.04s)
+Running: Test B: Tesla R&D...
+   Relevance Grade: yes
+A: Tesla 2024 年的研發費用 (R&D expenses) 是 $4,540 million [Source: Tesla 10-K].
+PASS (5.45s)
+Running: Test D: Apple Services Cost...
+   Relevance Grade: yes
+A: Apple 2024 年的「服務成本 (Cost of sales - Services)」為 $25,119 million。[Source: Apple 10-K]
+PASS (4.57s)
+Running: Test E: Tesla Energy Revenue...
+   Relevance Grade: yes
+A: Tesla 2024 年的「能源發電與儲存 (Energy generation and storage)」營收是 $10,086 million [Source: Tesla 10-K].
+PASS (5.94s)
+Running: Test G: Unknown Info...
+   Relevance Grade: no
+   New Question: Apple projected pricing for iPhone 17 fiscal year 2024
+   Relevance Grade: no
+   New Question: Apple projected pricing for iPhone 17 product sales fiscal year 2024
+   Relevance Grade: no
+Max retries reached
+A: I don't know based on the provided documents.
+PASS (9.42s)
+Running: Test A1 [Eng]: Apple Revenue...
+   Relevance Grade: yes
+A: Apple's Total Net Sales for the fiscal year 2024 was $391,035 million. [Source: Apple 10-K]
+PASS (7.27s)
+Running: Test A2 [Eng]: Tesla Automotive Revenue...
+   Relevance Grade: yes
+A: The specific revenue figure for 'Automotive sales' for Tesla in 2024 is $72,480 million. [Source: Tesla 10-K]
+PASS (6.46s)
+Running: Test B1 [Mixed]: Apple R&D...
+   Relevance Grade: yes
+A: Apple 2024 年的研發費用 (Research and development expenses) 是 $31,370 million。[Source: Apple 10-K]
+PASS (3.89s)
+Running: Test B2 [Mixed]: Tesla CapEx...
+   Relevance Grade: yes
+A: Tesla 在 2024 年的資本支出為 $11,339 million [Source: Tesla 10-K]。
+PASS (4.30s)
+Running: Test C1 [Eng]: R&D Comparison...
+   Relevance Grade: yes
+A: In 2024, Apple Inc. reported Research and Development (R&D) expenses of $31,370 million [Source: Apple 10-K], while Tesla, Inc. reported R&D expenses of $4,540 million [Source: Tesla 10-K]. 
+
+Apple spent significantly more on R&D than Tesla in 2024.
+PASS (17.51s)
+Running: Test C2 [Eng]: Gross Margin Analysis...
+   Relevance Grade: yes
+A: To calculate the Total Gross Margin percentage for both companies, we use the formula:
+
+Gross Margin % = (Gross Profit ÷ Total Revenues) × 100%
+
+For Apple:
+- Gross Profit: $180,683 million
+- Total Revenues: $391,035 million
+
+Gross Margin % = ($180,683 ÷ $391,035) × 100% ≈ 46.2%
+
+For Tesla:
+- Gross P...
+PASS (9.53s)
+Running: Test D1 [Eng]: Apple Services Cost...
+   Relevance Grade: yes
+A: Apple's 'Cost of sales' specifically for 'Services' in 2024 was $25,119 million. [Source: Apple 10-K]
+PASS (5.53s)
+Running: Test E1 [Mixed]: 2025 Projection (Trap)...
+   Relevance Grade: no
+   New Question: Apple projected iPhone unit sales target fiscal year 2024
+   Relevance Grade: no
+   New Question: Apple projected iPhone unit sales fiscal year 2024
+   Relevance Grade: no
+Max retries reached
+A: I don't know based on the provided documents.
+PASS (9.63s)
+Running: Test F1 [Eng]: CEO Identity...
+   Relevance Grade: yes
+A: Elon Musk signed the 10-K report as the Chief Executive Officer for Tesla. [Source: Tesla 10-K]
+PASS (5.22s)
+
+ FINAL SCORE: 14/14
